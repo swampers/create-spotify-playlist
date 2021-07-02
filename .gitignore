@@ -1,0 +1,7 @@
+playlist*
+/raw/charts/*
+*cache*
+Dockerfile
+*.jpeg
+*.log
+config.py
