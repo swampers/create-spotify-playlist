@@ -1,0 +1,13 @@
+# File name: config.py
+# Description: To hold Spotify configuration variables
+# Author: Adam Fenton
+
+# initialize authentication parameters
+username = 'aaaaaaaaaaaaaaaaaaaaaaaaa' # Spotify username
+client_id ='bbbbbbbbbbbbbbbbbbbbbbbbb' # Spotify client id from registered app
+client_secret = 'cccccccccccccccccccccccc' # Spotify client secret from registered app
+redirect_uri = 'http://localhost:8888/callback' # arbitrary redirect_uri from registered app 
+scope = 'playlist-modify-public user-library-read ugc-image-upload' # scope (see API documentation for details)
+
+# default playlist id for output (obtainable via spotify API)
+target_playlist = 'DDDDDDDDDDDDDDDDDDDDDDDD'
